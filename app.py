@@ -4,6 +4,8 @@ import pandas as pd
 import pickle as pk
 st.image("https://pianalytix.com/wp-content/uploads/2020/12/Salary-Prediction-Model-using-ML-1024x427.jpg&quot")
 
+st.write("SALARY PREDICTION MODEL")
+
 # load model
 load_model= pk.load(open('salary.pickle','rb'))
 
@@ -45,7 +47,7 @@ if st.button("predict"):
 
 
 
-
+st.write("This model is done by mahesh Thapa")
 
 
 
